@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="710afa85-a850-4318-b486-30683a7f721d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoiceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Ride.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/CabInvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/CabInvoiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,20 +55,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CabInvoiceTest.givenMultipleRidesShouldReturnInvoice">
-    <configuration name="CabInvoiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.CabInvoiceTest" />
-      <module name="Cab_Invoice_Generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CabInvoiceTest.givenUserIdShouldReturnInvoice">
     <configuration name="CabInvoiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cab_Invoice_Generator" />
       <extension name="coverage">
@@ -129,13 +119,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CabInvoiceTest.givenUserIdShouldReturnInvoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cab_Invoice_Generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.CabInvoiceTest" />
+      <option name="METHOD_NAME" value="givenUserIdShouldReturnInvoice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CabInvoiceTest.givenUserIdShouldReturnInvoice" />
         <item itemvalue="JUnit.CabInvoiceTest.givenMultipleRidesShouldReturnInvoice" />
         <item itemvalue="JUnit.CabInvoiceTest.givenMultipleRidesShouldReturnTotalFare" />
         <item itemvalue="JUnit.CabInvoiceTest.givenDistanceAndTimeShouldReturnMinimumFare" />
         <item itemvalue="JUnit.CabInvoiceTest" />
-        <item itemvalue="Application.CabInvoiceTest" />
       </list>
     </recent_temporary>
   </component>
