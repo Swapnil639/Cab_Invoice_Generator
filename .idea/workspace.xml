@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="710afa85-a850-4318-b486-30683a7f721d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/RideCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoiceGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Invoice.java" afterDir="false" />
@@ -55,7 +55,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CabInvoiceTest.givenUserIdShouldReturnInvoice">
+  <component name="RunManager" selected="JUnit.CabInvoiceTest">
     <configuration name="CabInvoiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cab_Invoice_Generator" />
       <extension name="coverage">
@@ -71,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CabInvoiceTest.givenDistanceAndTimeShouldReturnMinimumFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CabInvoiceTest.givenDistanceAndTime_WhenNormal_ShouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cab_Invoice_Generator" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +81,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.CabInvoiceTest" />
-      <option name="METHOD_NAME" value="givenDistanceAndTimeShouldReturnMinimumFare" />
+      <option name="METHOD_NAME" value="givenDistanceAndTime_WhenNormal_ShouldReturnTotalFare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CabInvoiceTest.givenMultipleRidesShouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CabInvoiceTest.givenNormalRideCategoryShouldReturnNormalRideTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cab_Invoice_Generator" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +113,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.CabInvoiceTest" />
-      <option name="METHOD_NAME" value="givenMultipleRidesShouldReturnTotalFare" />
+      <option name="METHOD_NAME" value="givenNormalRideCategoryShouldReturnNormalRideTotalFare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CabInvoiceTest" />
+        <item itemvalue="JUnit.CabInvoiceTest.givenNormalRideCategoryShouldReturnNormalRideTotalFare" />
+        <item itemvalue="JUnit.CabInvoiceTest.givenDistanceAndTime_WhenNormal_ShouldReturnTotalFare" />
         <item itemvalue="JUnit.CabInvoiceTest.givenUserIdShouldReturnInvoice" />
         <item itemvalue="JUnit.CabInvoiceTest.givenMultipleRidesShouldReturnInvoice" />
-        <item itemvalue="JUnit.CabInvoiceTest.givenMultipleRidesShouldReturnTotalFare" />
-        <item itemvalue="JUnit.CabInvoiceTest.givenDistanceAndTimeShouldReturnMinimumFare" />
-        <item itemvalue="JUnit.CabInvoiceTest" />
       </list>
     </recent_temporary>
   </component>
